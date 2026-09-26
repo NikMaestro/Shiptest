@@ -1028,6 +1028,7 @@
 	id = "engineone"
 	},
 /obj/item/circuitboard/machine/pacman,
+/obj/item/stack/sheet/mineral/plasma/ten,
 /turf/open/floor/plating,
 /area/ship/engineering)
 "BP" = (
@@ -1800,29 +1801,32 @@
 	pixel_x = 4;
 	pixel_y = -22
 	},
-/obj/item/clothing/head/helmet/ngr{
+/obj/effect/turf_decal/siding/wood/mahogany{
+	dir = 6
+	},
+/obj/item/clothing/head/helmet/m10/cybersun{
 	pixel_x = 10;
 	pixel_y = 8
 	},
-/obj/item/clothing/head/helmet/ngr{
+/obj/item/clothing/head/helmet/m10/cybersun{
 	pixel_x = 10;
 	pixel_y = 2
 	},
-/obj/item/clothing/head/helmet/ngr{
+/obj/item/clothing/head/helmet/m10/cybersun/trauma{
 	pixel_x = 10;
 	pixel_y = -4
 	},
-/obj/item/clothing/suit/armor/ngr{
+/obj/item/clothing/suit/armor/vest/cybersun{
 	pixel_x = -1;
 	pixel_y = 8
 	},
-/obj/item/clothing/suit/armor/ngr{
-	pixel_y = 2;
-	pixel_x = -1
+/obj/item/clothing/suit/armor/vest/cybersun{
+	pixel_x = -1;
+	pixel_y = 2
 	},
-/obj/item/clothing/suit/armor/ngr{
-	pixel_y = -4;
-	pixel_x = -1
+/obj/item/clothing/suit/armor/vest/cybersun/trauma{
+	pixel_x = -1;
+	pixel_y = -4
 	},
 /obj/item/flashlight/seclite{
 	pixel_y = -2;
@@ -1835,9 +1839,6 @@
 /obj/item/flashlight/seclite{
 	pixel_y = -12;
 	pixel_x = 4
-	},
-/obj/effect/turf_decal/siding/wood/mahogany{
-	dir = 6
 	},
 /turf/open/floor/suns/hatch/mahogany,
 /area/ship/security/armory)
@@ -2086,7 +2087,6 @@
 /obj/item/storage/belt/utility/syndicate,
 /obj/item/storage/toolbox/syndicate,
 /obj/item/storage/toolbox/syndicate,
-/obj/item/clothing/glasses/meson,
 /obj/item/clothing/glasses/meson,
 /obj/item/clothing/glasses/meson,
 /turf/open/floor/plasteel/dark,
